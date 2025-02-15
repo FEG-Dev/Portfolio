@@ -1,0 +1,78 @@
+/* Dark Mode Theme */
+body {
+    background: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff6600;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.3);
+}
+
+h2 {
+    color: #ff6600;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.3);
+}
+
+/* Contact */
+a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1e1e1e;
+    border-radius: 5px;
+}
